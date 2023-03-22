@@ -2,9 +2,10 @@ import 'ogrenci.dart';
 
 void main() {
   Ogrenci yagiz = new Ogrenci("Yağız",25);
-  //Ogretmen ahmet = Ogretmen("matematik", "ahmet", 38);
+  Ogretmen ahmet = Ogretmen("Matematik","Ahmet", 36);
   //ahmet.merhabaDe();
   yagiz.merhabaDe();
+  ahmet.merhabaDe();
   //yagiz.dogumGunuKutla();
   //yagiz.merhabaDe();
 

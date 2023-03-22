@@ -20,6 +20,16 @@ class Ogrenci{
   String get adiSoyadi => "$ad,$_yas";
 }
 
+class Ogretmen extends Ogrenci{
+  String brans;
 
+  Ogretmen(this.brans,String adi,int yasi) : super(adi, yasi);
+
+  @override
+  void merhabaDe(){
+    super.merhabaDe();
+    print("Branşım: $brans");
+  }
+}
 
 
